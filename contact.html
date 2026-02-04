@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Vobtek - Get in touch for IT solutions and consulting services.">
+    <title>Contact Us - Vobtek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">VOBTEK</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-toggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Get In <span class="gradient-text">Touch</span></h1>
+            <p>Ready to start your project? We'd love to hear from you. Let's create something amazing together.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h2>Contact <span class="gradient-text">Us</span></h2>
+                    <p style="margin-bottom:var(--spacing-2xl);">Fill out the form and our team will get back to you
+                        within 24 hours.</p>
+
+                    <div style="margin-top:var(--spacing-2xl);">
+                        <h4 style="margin-bottom:var(--spacing-md);">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form fade-in">
+                    <h3 style="margin-bottom:var(--spacing-xl);">Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required placeholder="John">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="web">Web Development</option>
+                                <option value="cloud">Cloud Solutions</option>
+                                <option value="security">Cybersecurity</option>
+                                <option value="mobile">Mobile App Development</option>
+                                <option value="ai">AI & Machine Learning</option>
+                                <option value="consulting">IT Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" required
+                                placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background:var(--color-bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="grid grid-2">
+                <div class="card fade-in">
+                    <h4>How long does a typical project take?</h4>
+                    <p class="card-text">Project timelines vary based on scope. Simple websites: 2-4 weeks. Complex
+                        apps: 2-6 months. We'll provide a detailed timeline during discovery.</p>
+                </div>
+                <div class="card fade-in">
+                    <h4>What is your pricing model?</h4>
+                    <p class="card-text">We offer both fixed-price and time & materials models. Each project receives a
+                        custom quote based on requirements and complexity.</p>
+                </div>
+                <div class="card fade-in">
+                    <h4>Do you provide ongoing support?</h4>
+                    <p class="card-text">Yes! We offer maintenance packages including updates, security patches,
+                        performance monitoring, and 24/7 support options.</p>
+                </div>
+                <div class="card fade-in">
+                    <h4>Can you work with our existing team?</h4>
+                    <p class="card-text">Absolutely. We seamlessly integrate with in-house teams, providing expertise
+                        where needed while respecting your processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="index.html" class="logo">VOBTEK</a>
+                    <p>Empowering businesses with innovative technology solutions.</p>
+                </div>
+                <div>
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                        <li><a href="services.html">Cybersecurity</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vobtek. All rights reserved.</p>
+                <div class="social-links"><a href="#">in</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
